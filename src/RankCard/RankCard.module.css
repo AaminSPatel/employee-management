@@ -1,0 +1,26 @@
+.rankHeading{
+    font-size: 70px;
+    color: rgb(31, 52, 102);
+    transform: rotate(-45deg);
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-shadow: 0 0 9px rgb(247, 247, 247);
+    transition: all 3s ease;
+}
+#rankEmployee{
+    border-radius: 70px;
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.rankTag{
+    color: rgb(247, 153, 71);
+    font-size: 29px;
+    font-weight: 700;
+    font-family:sans-serif;
+}

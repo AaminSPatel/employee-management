@@ -1,0 +1,207 @@
+footer{
+    background: #0a1c3b;
+    width: 100%;
+    padding:50px 0;
+}
+footer hr{
+    width: 100%;
+    margin: 30px 0;
+}
+@media screen and (max-width:1020px){
+    .foo{
+        min-width: 90%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 10%;
+        flex-direction: column;
+    }
+    .fot{
+        min-width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #020e3596;
+    }
+    .fotr{
+        min-width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    footer{
+        height: auto;
+       
+    }
+}
+
+@media screen and (min-width:1020px){
+    .foo{
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .fot{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    .fotr{
+        width: 30%;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    footer{
+        height: auto;
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+.foo{
+    height: auto;
+    
+    font-size: 14px;
+    gap: 15px;  
+    float: left;
+    padding: 10px 0;
+}
+.foo h3{
+    font-size:3.1em;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fe8271;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.foo p{
+    color: #ffffff;  
+    width: 85%;
+    height: auto;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+footer i{
+    color: rgb(218, 164, 164);
+    font-size: 25px;
+    box-shadow: inset;
+    filter: drop-shadow(0 0 5px rgb(90, 89, 89));
+}
+.foo address{
+    color: #e0e0e0;
+    width: 85%;
+    height: 60px;
+    font-size: 1.3em;
+}
+.linkfo{
+    color: #000000;
+    height: 30px;
+    font-weight: 600;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.fot{
+    flex-direction: row;
+
+    gap: 1px;
+    float: left;
+    height: auto;
+}
+.foto,.fott{
+    
+    padding-left: 20px;
+    gap: 30px;
+    float: left;
+    width: 40%;
+}
+.fot ul{
+    padding:0;
+    flex-direction: column;
+
+}
+.fot li{
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fot h4{
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.fotr{
+    color: #ffffff;
+    gap: 25px;
+    float: left;
+    height: auto;
+    margin-bottom: 1px;
+}
+.fotr h4{
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotr p{
+    color: #ffffff;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    text-align: center;
+}
+.fotr .subscribe{
+    width: 200px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center; 
+    border: none;
+    background: #fe8271;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+.email{
+    width: 200px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    border: 1px solid white;
+    padding: 0;
+    background: #fe827132;
+}
+.foterPara{
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
